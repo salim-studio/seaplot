@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="SeaPlot banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A3D62"/>
+      <stop offset="0.55" stop-color="#0E5A8A"/>
+      <stop offset="1" stop-color="#0ABDE3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="1020" cy="90" r="7" fill="#fff" opacity="0.9"/>
+  <circle cx="1060" cy="140" r="10" fill="#FF6B6B"/>
+  <circle cx="980" cy="150" r="6" fill="#F5CD79"/>
+  <circle cx="1105" cy="200" r="8" fill="#fff" opacity="0.85"/>
+  <circle cx="150" cy="290" r="6" fill="#55E6C1" opacity="0.8"/>
+  <path d="M880 230 C 950 200, 990 150, 1080 135" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="150" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="#fff">SeaPlot</text>
+  <text x="82" y="210" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" fill="#DFF6FD">Seaborn-compatible plotting, 20x faster — plus DB, EDA, ML &amp; DL.</text>
+  <text x="82" y="262" font-family="Consolas, monospace" font-size="26" fill="#0A3D62" opacity="0.95"><tspan dx="0" dy="0" fill="#fff">pip install seaplot</tspan></text>
+  <path d="M0 340 q 40 -28 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0" fill="none" stroke="#55E6C1" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+</svg>

@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seaplot"
+version = "1.0.0"
+description = "SeaPlot — seaborn-compatible plotting, 20x faster, plus DB, EDA, ML & DL toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.24",
+  "matplotlib>=3.6",
+  "pandas>=1.5",
+  "scipy>=1.9",
+  "scikit-learn>=1.2",
+]
+keywords = ["visualization", "seaborn", "matplotlib", "statistics", "data-science",
+            "machine-learning", "deep-learning", "database", "eda", "analytics"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Database",
+]
+
+[project.optional-dependencies]
+speed = ["numba>=0.57"]
+db = ["sqlalchemy>=2.0", "duckdb>=0.8"]
+ml = ["scikit-learn>=1.2"]
+dl = ["torch>=2.0"]
+all = ["numba>=0.57", "polars>=0.18", "pytest", "sqlalchemy>=2.0", "duckdb>=0.8", "scikit-learn>=1.2", "openpyxl", "pyarrow"]
+test = ["pytest"]
+viz = ["matplotlib>=3.6"]
+
+[project.urls]
+Homepage = "https://github.com/salim-studio/seaplot"
+Repository = "https://github.com/salim-studio/seaplot"
+Issues = "https://github.com/salim-studio/seaplot/issues"
+
+[tool.setuptools.packages.find]
+include = ["seaplot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

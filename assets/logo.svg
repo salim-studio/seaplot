@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SeaPlot logo">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ABDE3"/>
+      <stop offset="1" stop-color="#0A3D62"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#sea)"/>
+  <!-- scatter points -->
+  <circle cx="78" cy="150" r="10" fill="#fff" opacity="0.95"/>
+  <circle cx="112" cy="120" r="8" fill="#F5CD79"/>
+  <circle cx="142" cy="132" r="11" fill="#FF6B6B"/>
+  <circle cx="170" cy="92" r="8" fill="#fff" opacity="0.9"/>
+  <circle cx="188" cy="140" r="6" fill="#55E6C1"/>
+  <!-- trend wave -->
+  <path d="M60 168 C 100 150, 130 110, 196 96" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <!-- water waves -->
+  <path d="M52 196 q 16 -14 32 0 t 32 0 t 32 0 t 32 0 t 32 0" fill="none" stroke="#55E6C1" stroke-width="9" stroke-linecap="round"/>
+  <path d="M52 216 q 16 -14 32 0 t 32 0 t 32 0 t 32 0 t 32 0" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+</svg>
