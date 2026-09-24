@@ -142,3 +142,5 @@ See `CONTRIBUTING.md`. PRs welcome: `python -m pytest tests -q` must stay green.
 ## License
 
 MIT — see `LICENSE`.
+
+Copyright (c) 2026 salim-slimani
